@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'icons';
+  src:
+    url('fonts/icons.ttf?o3v826') format('truetype'),
+    url('fonts/icons.woff?o3v826') format('woff'),
+    url('fonts/icons.svg?o3v826#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"], [class*=" _icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-logo_bem:before {
+  content: "\26c9";
+}
